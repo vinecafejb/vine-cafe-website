@@ -85,6 +85,12 @@ figcaption b{display:block;font-weight:600;color:var(--ink);font-size:.85rem}
 .navlab{flex:0 0 auto;font-size:.75rem;letter-spacing:.15em;text-transform:uppercase;color:var(--muted);align-self:center;padding:0 .3rem}
 @media(min-width:900px){.strip-k{padding:0 max(3rem,calc((100vw - 1180px)/2))}.catnav .navlab{flex-basis:100%}}
 .vrow{display:flex;align-items:baseline;gap:.5rem;padding-left:1rem;margin-top:.2rem;font-size:.9rem}.vl{color:var(--muted)}
+/* menu item photos */
+.mi{display:flex;align-items:center;gap:1rem}
+.mi .mb{flex:1;min-width:0}
+.mi .th{flex:0 0 auto;width:64px;height:64px;object-fit:cover;border-radius:3px;background:rgba(0,0,0,.04)}
+.mi:not(.has-ph) .mb{padding-left:calc(64px + 1rem)}
+@media(max-width:600px){.mi .th{width:56px;height:56px}.mi:not(.has-ph) .mb{padding-left:calc(56px + 1rem)}}
 
 /* Vine — elegant main theme (overrides base.css) */
 :root{--bg:#FAF8EF;--cream:#F0EFD6;--green:#223B1B;--gold:#EECF46;--goldd:#C9A92A;--ink:#223B1B;--head:#223B1B;--soft:#45513d;--muted:#7a8170;--line:rgba(34,59,27,.14);
@@ -226,3 +232,5 @@ section.cat{padding:0;scroll-margin-top:140px}
 .cats{margin-top:0}
 @media(max-width:899px){.top .btn.sm{display:none}.lang button{padding:.3rem .55rem}}
 .btn{white-space:nowrap}
+.mi .th{border-radius:2px;outline:1px solid var(--line);outline-offset:3px;filter:saturate(.9)}
+.cat ul{gap:1.15rem}
