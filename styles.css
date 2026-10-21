@@ -91,6 +91,20 @@ figcaption b{display:block;font-weight:600;color:var(--ink);font-size:.85rem}
 .mi .th{flex:0 0 auto;width:64px;height:64px;object-fit:cover;border-radius:3px;background:rgba(0,0,0,.04)}
 .mi:not(.has-ph) .mb{padding-left:calc(64px + 1rem)}
 @media(max-width:600px){.mi .th{width:56px;height:56px}.mi:not(.has-ph) .mb{padding-left:calc(56px + 1rem)}}
+/* descriptions + allergens */
+.ds{font-size:.8rem;line-height:1.55;color:var(--muted);margin:.2rem 0 0;max-width:34rem}
+.als{display:flex;align-items:center;flex-wrap:wrap;gap:.35rem;margin-top:.35rem;font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.als-l{margin-right:.15rem}
+.al{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;color:var(--alc);background:color-mix(in srgb,var(--alc) 10%,transparent);cursor:help}
+.al svg{width:15px;height:15px}
+.al-legend{border:1px solid var(--line);padding:1.1rem 1.3rem;margin:1.8rem 0 0;max-width:60rem}
+.al-legend h4{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;font-weight:600;margin:0 0 .8rem;color:var(--muted)}
+.al-legend ul{list-style:none;display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;padding:0;margin:0}
+.al-legend li{display:flex;align-items:center;gap:.45rem;font-size:.85rem}
+.al-note{font-size:.78rem;color:var(--muted);margin:.9rem 0 0;line-height:1.55}
+@media(max-width:600px){.al-legend ul{display:grid;grid-template-columns:1fr 1fr}}
+.mi{align-items:flex-start}.mi .th{margin-top:.2rem}
+.hero-img picture{display:contents}
 
 /* Vine — elegant main theme (overrides base.css) */
 :root{--bg:#FAF8EF;--cream:#F0EFD6;--green:#223B1B;--gold:#EECF46;--goldd:#C9A92A;--ink:#223B1B;--head:#223B1B;--soft:#45513d;--muted:#7a8170;--line:rgba(34,59,27,.14);
