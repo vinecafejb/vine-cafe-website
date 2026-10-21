@@ -248,3 +248,11 @@ section.cat{padding:0;scroll-margin-top:140px}
 .btn{white-space:nowrap}
 .mi .th{border-radius:2px;outline:1px solid var(--line);outline-offset:3px;filter:saturate(.9)}
 .cat ul{gap:1.15rem}
+
+/* WhatsApp reservation */
+.btn.wa{display:inline-flex;align-items:center;gap:.45rem}
+.btn.wa .wa-ic{flex:none}
+.wa-num{display:inline-flex;align-items:center;gap:.4rem;color:inherit;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+.wa-fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:50;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--green);color:var(--gold);box-shadow:0 6px 18px rgba(34,59,27,.28);border:1.5px solid var(--gold);text-decoration:none}
+.wa-fab:hover{transform:translateY(-2px)}
+.foot{padding-bottom:88px}
