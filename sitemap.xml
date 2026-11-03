@@ -21,4 +21,25 @@
     <xhtml:link rel="alternate" hreflang="ms" href="https://vine-cafe.com/ms/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://vine-cafe.com/"/>
   </url>
+  <url>
+    <loc>https://vine-cafe.com/order/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vine-cafe.com/order/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vine-cafe.com/zh/order/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://vine-cafe.com/ms/order/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vine-cafe.com/order/"/>
+  </url>
+  <url>
+    <loc>https://vine-cafe.com/zh/order/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vine-cafe.com/order/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vine-cafe.com/zh/order/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://vine-cafe.com/ms/order/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vine-cafe.com/order/"/>
+  </url>
+  <url>
+    <loc>https://vine-cafe.com/ms/order/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://vine-cafe.com/order/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://vine-cafe.com/zh/order/"/>
+    <xhtml:link rel="alternate" hreflang="ms" href="https://vine-cafe.com/ms/order/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://vine-cafe.com/order/"/>
+  </url>
 </urlset>

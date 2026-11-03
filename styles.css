@@ -256,3 +256,31 @@ section.cat{padding:0;scroll-margin-top:140px}
 .wa-fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:50;width:52px;height:52px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--green);color:var(--gold);box-shadow:0 6px 18px rgba(34,59,27,.28);border:1.5px solid var(--gold);text-decoration:none}
 .wa-fab:hover{transform:translateY(-2px)}
 .foot{padding-bottom:88px}
+
+/* Order for pickup */
+.top .btn.sm.order{display:inline-block}
+@media(max-width:899px){.top .btn.sm.ghost{display:none}}
+.page-order .order-main{padding-bottom:2rem}
+.order-hero{padding-top:2.5rem;padding-bottom:2rem;max-width:44rem}
+.order-hero .crumb{font-size:.85rem;color:var(--muted);margin-bottom:1.2rem}
+.order-hero .crumb a{text-decoration:none;border-bottom:1px solid var(--line)}
+.order-hero .crumb a:hover{border-color:var(--green)}
+.order-steps{padding-top:1rem}
+.order-steps h2{margin-bottom:1.5rem}
+.steps{list-style:none;margin:0;padding:0;counter-reset:step;display:grid;gap:1rem;max-width:40rem}
+.steps li{position:relative;background:var(--bg);border:1px solid var(--line);padding:1.2rem 1.3rem 1.2rem 4.2rem}
+.steps li::before{counter-increment:step;content:counter(step);position:absolute;left:1rem;top:1.15rem;width:2rem;height:2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;background:var(--green);color:var(--cream);font-size:.85rem;font-weight:600;font-family:var(--body)}
+.steps h3{font-size:1.25rem;margin:0 0 .35rem}
+.steps p{margin:0;color:var(--soft);font-size:.98rem}
+.order-spot{margin-top:2rem;padding:1.6rem 1.5rem;background:var(--green);color:var(--cream);max-width:40rem}
+.order-spot p{margin:0 0 .8rem;color:var(--cream);opacity:.95}
+.order-spot .order-addr{font-weight:500;line-height:1.5}
+.order-spot .ctas{margin-top:1.2rem}
+.order-spot .btn{background:var(--cream);color:var(--green);border-color:var(--cream)}
+.order-spot .btn:hover{background:transparent;color:var(--cream);border-color:var(--cream)}
+.order-spot .btn.ghost{background:transparent;color:var(--cream);border-color:rgba(250,248,239,.45)}
+.order-spot .btn.ghost:hover{background:var(--cream);color:var(--green);border-color:var(--cream)}
+@media(min-width:900px){
+ .order-hero{padding-top:4rem}
+ .steps{gap:1.2rem}
+}
